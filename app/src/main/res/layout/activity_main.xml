@@ -59,7 +59,7 @@
         android:layout_marginStart="173dp"
         android:layout_marginTop="227dp"
         android:layout_marginEnd="180dp"
-        android:text="TextView"
+        android:hint="Result"
         android:textAlignment="center"
         android:textColor="#E91E63"
         android:textColorHint="#E91E63"
