@@ -14,14 +14,25 @@ class MainActivity : AppCompatActivity() {
         super.onCreate(savedInstanceState)
         setContentView(R.layout.activity_main)
 
+        // code attribution
+        // this method was taken from stack overflow
+        // https://stackoverflow.com/questions/47083268/how-to-declare-variables-in-android-kotlin-using-google-code-style
+        // Ruckus T-Boom
+        // https://stackoverflow.com/users/2094298/ruckus-t-boom
         val etAge = findViewById<EditText>(R.id.etAge).text
         val btnGenerate = findViewById<Button>(R.id.btnGenerate)
         val btnClear = findViewById<Button>(R.id.btnClear)
         val tvResult = findViewById<TextView>(R.id.tvResult)
 
+        //
         btnGenerate.setOnClickListener {
             var message: String = ""
 
+            // code attribution
+            // this method was taken from stack overflow
+            // https:// stackoverflow.com/questions/637980/if-else-and-if-elseif
+            // Frederik Gheysels
+            // https://stackoverflow.com/users/55774/frederik-gheysels
             if (etAge.toString().equals("25")) {
                 message = "For ${etAge.toString()} years your history icon match is: John Keats English he was a romantic poet"
             } else if (etAge.toString().equals("27")) {
