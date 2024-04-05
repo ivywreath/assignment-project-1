@@ -42,7 +42,7 @@ class MainActivity : AppCompatActivity() {
                 message = "For ${etAge.toString()} years your history icon match is: John Wayne he was an Actor "
             } else if (etAge.toString().equals("96")) {
                 message = "For ${etAge.toString()} years your history icon match is: Queen Elizabeth she was Queen of United Kingdom"
-            } else if (etAge.toString().equals("<20")) {
+            } else if (etAge.toString().equals("<20 OR >100")) {
                 message = "For ${etAge.toString()} years you entered a age out of range "
             } else { message = "For ${etAge.toString()} years, you have entered an invalid age"
 
